@@ -46,15 +46,15 @@ a {
 
 .navTable th, tr {
   border: 1px solid white;
-  line-height: 200%;
   width: 10%;
+  padding: 1%;
 }
 
 .footer {
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 25%;
+  width: 10%;
   background-color: black;
   color: white;
   font-size: 50%;
