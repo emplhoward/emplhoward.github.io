@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+}
+
+/* Style for most elements, unless exceptional:  */
+* {
+  background-color: black;
+  font-family: "Serif", University, monospace;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+head {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  /*
+  background-image: url("Img/BinaryRain.gif"), url("Img/BinaryRain.gif");
+  background-position: center left, center right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10% 100%;
+  min-height: 100%;
+  */
+}
+
+/* Style for all links.  */
+a {
+  font-family: "Serif", University, monospace;
+  font-size: 100%;
+  text-decoration: none; /* No underline, distracting.  */
+  color: lightgreen;
+  padding: 1%;
+}
+
+.navTableDiv{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navTable th, tr {
+  border: 1px solid white;
+  line-height: 200%;
+  width: 10%;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: black;
+  color: white;
+  font-size: 50%;
+}
+
+/*
+img {
+  border-radius: 150px 50px 100px 25px;
+}
+*/
