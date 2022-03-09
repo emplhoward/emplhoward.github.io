@@ -1,58 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- Use this div to keep the page black, untill css is loaded and make it invisible. -->
+  <!-- This prevents awkward transition where the page is displayed briefly without style. -->
+  <div id="fadeInCanvas" style="background-color:black; position: absolute; top:0; left: 0;  width:100%; height:100%">
 
-  <!-- Head: -->
-  <head>
-    <!-- Page bar title: -->
-    <title>
-      Athabasca University -
-      Research Clusters
-    </title>
-    <!-- Page tile: -->
-    <p>
-    <div>
-      <h1>
-        Athabasca University <br>
-        Research Clusters <br>
-     </h1>
-    </div>
-    </p>
-    <!-- Mobile device scaling: -->
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="ExternalStyle.css">
-  </head>
-
-  <!-- Body: -->
-  <body>
-    <!-- Main page introduction: -->
-    <p>
+    <!-- Head: -->
+    <head>
+      <!-- Page bar title: -->
+      <title>
+        Athabasca University -
+        Research Clusters
+      </title>
+      <!-- Page tile: -->
+      <p>
       <div>
-        INTRODUCTORY TEXT.
+        <h1>
+          Athabasca University <br>
+          Research Clusters <br>
+       </h1>
       </div>
-    </p>
-    <!-- Main page picture: -->
-    <div>
-      <img src= "Img/AUCoatOfArm.bmp" title="AUCoatOfArm" alt="AUCoatOfArmImg" height="50%" width="50%">
-    </div>
-    <!-- Cluster Table -->
-    <p>
-      <div class="navTableDiv">
-        <table class="navTable">
-          <tr>
-            <th> <a href="ClusterPage_ISML.html"> Intelligent Systems and Machine Learning </a> </th>
-            <th> <a href="ClusterPage_Cluster00.html"> Cluster 00 </a> </th>
-            <th> <a href="ClusterPage_Cluster01.html"> Cluster 01 </a> </th>
-          </tr>
-        </ul>
-      </div>
-    </p>
-    <!-- Signature: -->
-    <p>
-      <div class="footer">
-        <em> Developed by L. Howard. </em>
-      </div>
-    </p>
-  </body>
+      </p>
+      <!-- Mobile device scaling: -->
+      <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <!-- Link to CSS -->
+      <link rel="stylesheet" href="ExternalStyle.css">
+    </head>
+
+    <!-- Body: -->
+    <body>
+        <!-- Main page introduction: -->
+        <p>
+          <div>
+            INTRODUCTORY TEXT.
+          </div>
+        </p>
+        <!-- Main page picture: -->
+        <div>
+          <img src= "Img/AUCoatOfArm.bmp" title="AUCoatOfArm" alt="AUCoatOfArmImg" height="50%" width="50%">
+        </div>
+        <!-- Cluster Table -->
+        <p>
+          <div class="navTableDiv">
+            <table class="navTable">
+              <tr>
+                <th> <a href="ClusterPage_ISML.html"> Intelligent Systems and Machine Learning </a> </th>
+                <th> <a href="ClusterPage_Cluster00.html"> Cluster 00 </a> </th>
+                <th> <a href="ClusterPage_Cluster01.html"> Cluster 01 </a> </th>
+              </tr>
+              <tr>
+                <td> <img src= "Img/01_ISML.bmp" title="01_ISML" alt="01_ISML" height="100%" width="100%"> </td>
+                <td> <img src= "Img/02_Cluster00.bmp" title="02_Cluster00" alt="02_Cluster00" height="100%" width="100%"> </td>
+                <td> <img src= "Img/03_Cluster01.bmp" title="03_Cluster01" alt="03_Cluster01" height="100%" width="100%"> </td>
+              </tr>
+            </ul>
+          </div>
+        </p>
+        <!-- Signature: -->
+        <p>
+          <div class="footer">
+            <em> Developed by L. Howard. </em>
+          </div>
+        </p>
+
+    </body>
+
+  </div>
 </html>

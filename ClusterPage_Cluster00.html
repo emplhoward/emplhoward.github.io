@@ -1,50 +1,55 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+  <!-- Use this div to keep the page black, untill css is loaded and make it invisible. -->
+  <!-- This prevents awkward transition where the page is displayed briefly without style. -->
+  <div id="fadeInCanvas" style="background-color:black; position: absolute; top:0; left: 0;  width:100%; height:100%">
 
-  <!-- Head: -->
-  <head>
-    <!-- Page bar title: -->
-    <title>
-      AU Cluster 00
-    </title>
-    <!-- Page tile: -->
-    <p>
-    <div>
-      <h1>
-        Cluster 00 <br>
-     </h1>
-    </div>
-    </p>
-    <!-- Mobile device scaling: -->
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="ExternalStyle.css">
-  </head>
-
-  <!-- Body: -->
-  <body>
-    <!-- Main page introduction: -->
-    <p>
+    <!-- Head: -->
+    <head>
+      <!-- Page bar title: -->
+      <title>
+        AU Cluster 00
+      </title>
+      <!-- Page tile: -->
+      <p>
       <div>
-        CLUSTER 00 INTRODUCTORY TEXT.
+        <h1>
+          Cluster 00 <br>
+       </h1>
       </div>
-    </p>
-    <!-- Back to home page. -->
-    <p>
-      <div class="navTableDiv">
-        <table class="navTable">
-          <tr>
-            <th> <a href="index.html"> Home Page </a> </th>
-          </tr>
-        </ul>
-      </div>
-    </p>
-    <!-- Signature: -->
-    <p>
-      <div class="footer">
-        <em> Developed by L. Howard. </em>
-      </div>
-    </p>
-  </body>
+      </p>
+      <!-- Mobile device scaling: -->
+      <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <!-- Link to CSS -->
+      <link rel="stylesheet" href="ExternalStyle.css">
+    </head>
+
+    <!-- Body: -->
+    <body>
+      <!-- Main page introduction: -->
+      <p>
+        <div>
+          CLUSTER 00 INTRODUCTORY TEXT.
+        </div>
+      </p>
+      <!-- Back to home page. -->
+      <p>
+        <div class="navTableDiv">
+          <table class="navTable">
+            <tr>
+              <th> <a href="index.html"> Home Page </a> </th>
+            </tr>
+          </ul>
+        </div>
+      </p>
+      <!-- Signature: -->
+      <p>
+        <div class="footer">
+          <em> Developed by L. Howard. </em>
+        </div>
+      </p>
+    </body>
+
+  </div>
 </html>

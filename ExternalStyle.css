@@ -44,7 +44,7 @@ a {
   padding-right: 10%;
 }
 
-.navTable th, tr {
+.navTable th, td {
   border: 1px solid white;
   width: 10%;
   padding: 1%;
@@ -65,3 +65,7 @@ img {
   border-radius: 150px 50px 100px 25px;
 }
 */
+
+fadeInCanvas {
+  display: none;
+}
