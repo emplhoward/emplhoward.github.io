@@ -1,55 +1,107 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <!-- Use this div to keep the page black, untill css is loaded and make it invisible. -->
-  <!-- This prevents awkward transition where the page is displayed briefly without style. -->
-  <div id="fadeInCanvas" style="background-color:black; position: absolute; top:0; left: 0;  width:100%; height:100%">
-
-    <!-- Head: -->
-    <head>
-      <!-- Page bar title: -->
-      <title>
-        AU ISML Cluster
-      </title>
-      <!-- Page tile: -->
+  <!-- Head: -->
+  <head>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <!-- Page bar title: -->
+    <title>
+      AU ISML Cluster
+    </title>
+    <!-- Page tile: -->
+    <div>
       <p>
-      <div>
         <h1>
           Intelligent Systems and Machine Learning <br>
-       </h1>
-      </div>
+        </h1>
       </p>
-      <!-- Mobile device scaling: -->
-      <meta name="viewport" content="width = device-width, initial-scale = 1">
-      <!-- Link to CSS -->
-      <link rel="stylesheet" href="ExternalStyle.css">
-    </head>
+    </div>
+    <!-- Mobile device scaling: -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">    
+  </head>
 
-    <!-- Body: -->
-    <body>
-      <!-- Main page introduction: -->
-      <p>
-        <div>
-          ISML INTRODUCTORY TEXT.
-        </div>
-      </p>
-      <!-- Back to home page. -->
-      <p>
-        <div class="navTableDiv">
-          <table class="navTable">
-            <tr>
-              <th> <a href="index.html"> Home Page </a> </th>
-            </tr>
-          </ul>
-        </div>
-      </p>
-      <!-- Signature: -->
-      <p>
-        <div class="footer">
-          <em> Developed by L. Howard. </em>
-        </div>
-      </p>
-    </body>
+  <!-- Body: -->
+  <body>
+    <!-- Page text: -->
+    <div class="paragraph_SingleColumn">
+      <p> <h2> Introduction to the ISML Research Cluster </h2> </p>
+      <p> https://baconipsum.com/</p>
 
-  </div>
+      <p> Spicy jalapeno bacon ipsum dolor amet chuck corned beef swine hamburger.
+        Chuck cupim ground round tri-tip, buffalo picanha beef ribs flank salami
+        chicken fatback sirloin hamburger jowl. Strip steak jerky frankfurter shank short ribs.
+        Sirloin pancetta strip steak corned beef, biltong chicken sausage. </p>
+
+      <p> Jowl pig prosciutto flank swine, sirloin t-bone tail beef ribs shankle
+        ham hock filet mignon cow short loin burgdoggen. Bresaola filet mignon tenderloin
+        swine sirloin shoulder, ribeye porchetta picanha capicola ball tip salami shank flank.
+        Corned beef pancetta tongue ball tip. Alcatra doner bresaola beef ham bacon venison,
+        leberkas short ribs hamburger tail kielbasa andouille capicola. Chuck filet mignon meatball,
+        ham kevin buffalo jerky frankfurter tail tongue leberkas. Salami biltong filet mignon,
+        buffalo bresaola spare ribs cupim rump ham ground round tongue drumstick sausage.
+        Turducken pork loin short loin, sausage kielbasa picanha ham strip steak jowl short
+        ribs ham hock doner. </p>
+
+      <p> Andouille chicken ham hock pastrami, frankfurter pork belly ham short loin leberkas
+        cupim landjaeger turkey brisket corned beef. Kielbasa pork belly shoulder short loin,
+        cupim chuck pig filet mignon leberkas brisket ground round sirloin turducken corned beef.
+        Porchetta kielbasa pork chop short loin jerky, corned beef meatball venison beef ribs
+        doner meatloaf rump. Alcatra short ribs short loin, beef ribs meatball shankle t-bone
+        corned beef pastrami. Kielbasa rump salami turducken prosciutto swine ground round capicola
+        brisket ball tip bresaola pastrami shank. Landjaeger picanha biltong, hamburger ball tip
+        tongue chicken shank bacon shankle alcatra. Pork belly chislic chicken bresaola alcatra kevin,
+        frankfurter burgdoggen pancetta shoulder meatloaf. </p>
+    </div>
+    <!-- Cluster Team Table -->
+    <div class="tableDiv_1Col">
+      <p>
+        <table class="table_1Col">
+          <tr>
+            <th> Cluster Lead </th>
+          </tr>
+          <tr>
+            <td>
+              <img src= "Img/FakePerson01.jpg" title="FakePerson01" alt="FakePerson01" height="100%" width="100%">
+            </td>
+          </tr>
+        </table>
+      </p>
+    </div>
+    <div class="tableDiv_2Col">
+      <p>
+        <table class="table_2Col">
+          <tr>
+            <th> Cluster Member 1 </a> </th>
+            <th> Cluster Member 2 </th>
+          </tr>
+          <tr>
+            <td>
+              <img src= "Img/FakePerson02.jpg" title="FakePerson02" alt="FakePerson02" height="100%" width="100%">
+            </td>
+            <td>
+              <img src= "Img/FakePerson03.jpg" title="FakePerson03" alt="FakePerson03" height="100%" width="100%">
+            </td>
+          </tr>
+        </table>
+      </p>
+    </div>
+    <!-- Back to home page. -->
+    <div class="tableDiv_1Col">
+      <table class="table_1Col">
+        <tr>
+          <td>
+            <a href="index.html"> Home Page </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- Footer: -->
+    <div class="footer">
+      <p>
+        1 University Dr <br>
+        Athabasca <br>
+        AB T9S 3A3 <br>
+      </p>
+    </div>
 </html>
