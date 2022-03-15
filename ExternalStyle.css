@@ -20,16 +20,6 @@ head {
   padding-right: 10%;
 }
 
-{
-  /* This is for banners if needed:
-  background-image: url("Img/BinaryRain.gif"), url("Img/BinaryRain.gif");
-  background-position: center left, center right;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 10% 100%;
-  min-height: 100%;
-  */
-}
-
 /* Style for all links.  */
 a {
   font-family: "Serif", University, monospace;
@@ -37,18 +27,6 @@ a {
   text-decoration: none; /* No underline, distracting.  */
   color: darkgreen;
   text-align: center;
-}
-
-.paragraph_SingleColumn{
-  text-align: left;
-  text-spacing: 5px;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-/* Small images that are not part of table:  */
-.img_Standalone_Small{
-  width: 25%
 }
 
 /* Table header: */
@@ -68,6 +46,36 @@ td {
   margin-left: auto;
   margin-right: auto;
   width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
+}
+
+video{
+   width:50%;
+   height:100%;
+   margin:1.25rem auto;
+   padding:1.051%;
+   background-color:#666;
+}
+
+{
+  /* This is for banners if needed:
+  background-image: url("Img/BinaryRain.gif"), url("Img/BinaryRain.gif");
+  background-position: center left, center right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 10% 100%;
+  min-height: 100%;
+  */
+}
+
+.paragraph_SingleColumn{
+  text-align: left;
+  text-spacing: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Small images that are not part of table:  */
+.img_Standalone_Small{
+  width: 25%
 }
 
 /* Table div with 3 columns: */
