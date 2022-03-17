@@ -1,23 +1,18 @@
 html {
-  height: 100%;
-}
-
-/* Style for most elements, unless exceptional:  */
-body {
   background-color: white;
   color: black;
-  font-family: "Serif", University, monospace;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
-head {
-  font-family: "Courier New", Courier, monospace;
-  padding-left: 10%;
-  padding-right: 10%;
+body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
 }
 
 /* Style for all links.  */
@@ -68,6 +63,32 @@ video{
   background-size: 10% 100%;
   min-height: 100%;
   */
+}
+
+.header {
+  background-color: lightblue;
+  color: black;
+  font-family: "Serif", University, monospace;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Style for body elements, unless exceptional:  */
+.body {
+  font-family: "Serif", University, monospace;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: lightblue;
+  color: black;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .paragraph_SingleColumn_StandAlone{
@@ -121,11 +142,6 @@ video{
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.footer {
-  text-align: left;
-  margin-left: 5%;
 }
 
 work {
