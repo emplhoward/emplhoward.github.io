@@ -29,6 +29,11 @@ a {
   text-align: center;
 }
 
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Table header: */
 th {
   border: 2.5px solid black;
@@ -41,19 +46,18 @@ th {
 /* Table body: */
 td {
   border: 2.5px solid black;
-  padding: 2%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
+  max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
 }
 
 video{
-   width:50%;
-   height:100%;
-   margin:1.25rem auto;
-   padding:1.051%;
-   background-color:#666;
+ max-width:50%;
+ height:100%;
+ margin:1.25rem auto;
+ padding:1.051%;
+ background-color:#666;
 }
 
 {
@@ -66,41 +70,62 @@ video{
   */
 }
 
-.paragraph_SingleColumn{
+.paragraph_SingleColumn_StandAlone{
   text-align: left;
   text-spacing: 5px;
   margin-left: 20%;
   margin-right: 20%;
 }
 
+.paragraph_SingleColumn_WithinTable{
+  text-align: left;
+  text-spacing: 5px;
+}
+
 /* Small images that are not part of table:  */
 .img_Standalone_Small{
-  width: 25%
+  max-width: 25%
 }
 
 /* Table div with 3 columns: */
 .tableDiv_3Col{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  max-width: 80%;
 }
 
 .tableDiv_2Col{
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  max-width: 30%;
+}
+
+.tableDiv_2Col_Large{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
 }
 
 .tableDiv_1Col{
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  max-width: 15%;
+}
+
+.tableData_Narrow{
+  width: 5%;
+  vertical-align: top;
+}
+
+.tableData_Wide{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .footer {
   text-align: left;
   margin-left: 5%;
-  padding-bottom: 1%;
 }
 
 work {
