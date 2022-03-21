@@ -30,8 +30,8 @@ a {
 }
 
 table{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin: auto;
 }
 
 /* Table header: */
@@ -50,6 +50,7 @@ td {
   margin-left: auto;
   margin-right: auto;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
+  padding: 2.5%
 }
 
 video{
@@ -58,16 +59,6 @@ video{
  margin:1.25rem auto;
  padding:1.051%;
  background-color:#666;
-}
-
-{
-  /* This is for banners if needed:
-  background-image: url("Img/BinaryRain.gif"), url("Img/BinaryRain.gif");
-  background-position: center left, center right;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 10% 100%;
-  min-height: 100%;
-  */
 }
 
 .header {
@@ -91,8 +82,28 @@ video{
   background-color: lightblue;
   color: black;
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 2.5%
+}
+
+.pageSplitter_SideBar_Content{
+  display: grid;
+  grid-template-columns: 0.15fr 0.85fr;
+  grid-gap: 0px;
+}
+
+.sideBar{
+  width:100%
+}
+
+.tableData_Links{
+  width: 100%;
+}
+
+.pageContent{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2.5px solid black;
+  padding: 2.5%
 }
 
 .paragraph_SingleColumn{
@@ -129,21 +140,4 @@ video{
   margin-left: auto;
   margin-right: auto;
   max-width: 15%;
-}
-
-.sideBar_PageContent{
-  display: grid;
-  grid-template-columns: 0.1fr 0.9fr;
-  grid-gap: 0px;
-}
-
-.sideBar{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pageContent{
-  margin-left: auto;
-  margin-right: auto;
-  border: 2.5px solid black;
 }
