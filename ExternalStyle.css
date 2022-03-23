@@ -13,11 +13,13 @@ body{
 h1{
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 h2{
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 /* Style for all links.  */
@@ -27,6 +29,7 @@ a {
   text-decoration: none; /* No underline, distracting.  */
   color: darkgreen;
   text-align: center;
+  width: 100%;
 }
 
 table{
@@ -46,11 +49,11 @@ th {
 /* Table body: */
 td {
   border: 2.5px solid black;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
-  padding: 2.5%
+  padding: 0.5%
+  text-align: left;
 }
 
 video{
@@ -100,16 +103,22 @@ video{
 }
 
 .pageContent{
-  margin-left: auto;
-  margin-right: auto;
   border: 2.5px solid black;
   padding: 2.5%
 }
 
-.paragraph_SingleColumn{
+.paragraph_Standalone{
   text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.paragraph_PageContent{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 /* Small images that are not part of table:  */
@@ -117,7 +126,13 @@ video{
   max-width: 25%
 }
 
-/* Table div with 3 columns: */
+/* Table div with 5 columns: */
+.tableDiv_5Col{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
 .tableDiv_3Col{
   margin-left: auto;
   margin-right: auto;
