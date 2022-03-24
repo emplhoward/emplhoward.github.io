@@ -26,6 +26,7 @@ h2{
 a {
   font-family: "Serif", University, monospace;
   font-size: 100%;
+  font-weight: bold;
   text-decoration: none; /* No underline, distracting.  */
   color: darkgreen;
   text-align: center;
@@ -39,7 +40,7 @@ table{
 
 /* Table header: */
 th {
-  border: 2.5px solid black;
+  border: 2px solid black;
   padding: 0.5%;
   text-align: center;
   margin-left: auto;
@@ -56,7 +57,7 @@ th {
 
 /* Table body: */
 td {
-  border: 2.5px solid black;
+  border: 2px solid black;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
   padding: 0.5%
 }
@@ -65,6 +66,10 @@ td {
   border: 0px;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
   padding: 0.5%
+}
+
+.td_Links{
+  width: 100%;
 }
 
 img{
@@ -114,12 +119,14 @@ video{
   width:100%
 }
 
-.tableData_Links{
-  width: 100%;
+.hr_Thick{
+  height: 2px;
+  color: black;
+  background-color: black;
 }
 
 .pageContent{
-  border: 2.5px solid black;
+  border: 2px solid black;
   padding: 2.5%
 }
 
