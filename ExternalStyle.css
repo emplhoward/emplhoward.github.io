@@ -49,11 +49,13 @@ th {
 /* Table body: */
 td {
   border: 2.5px solid black;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
   padding: 0.5%
-  text-align: left;
+}
+
+img{
+  width: 100%;
+  display:block; /* Images are by default displayed inline - which causes the padding below the image. (because of line-height) */
 }
 
 video{
@@ -123,36 +125,32 @@ video{
 
 /* Small images that are not part of table:  */
 .img_Standalone_Small{
-  max-width: 25%
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Table div with 5 columns: */
-.tableDiv_5Col{
+.tableDiv_100{
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
 }
 
-.tableDiv_3Col{
+.tableDiv_80{
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
 }
 
-.tableDiv_2Col{
+.tableDiv_60{
   margin-left: auto;
   margin-right: auto;
-  max-width: 30%;
+  max-width: 60%;
 }
 
-.tableDiv_2Col_Large{
+.tableDiv_25{
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
-}
-
-.tableDiv_1Col{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 15%;
+  max-width: 25%;
 }
