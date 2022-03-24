@@ -46,9 +46,23 @@ th {
   margin-right: auto;
 }
 
+.th_NoBorder {
+  border: 0px;
+  padding: 0.5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Table body: */
 td {
   border: 2.5px solid black;
+  max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
+  padding: 0.5%
+}
+
+.td_NoBorder{
+  border: 0px;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
   padding: 0.5%
 }
