@@ -27,24 +27,53 @@ a {
   font-family: "Serif", University, monospace;
   font-size: 100%;
   font-weight: bold;
-  text-decoration: none; /* No underline, distracting.  */
+  text-decoration: none; /* No underline.  */
   color: darkgreen;
   text-align: center;
-  width: 100%;
+}
+
+.a_Backbround{
+  height: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.hr_Thick{
+  height: 2px;
+  color: black;
+  background-color: black;
+  display: block;
+  padding: 0;
 }
 
 table{
   margin: auto;
   margin: auto;
+  height: 100%;
+}
+
+tr{
+  height: 50px;
 }
 
 /* Table header: */
-th {
+th{
   border: 2px solid black;
-  padding: 0.5%;
+  padding: 0;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  height: 50px;
 }
 
 .th_NoBorder {
@@ -56,10 +85,11 @@ th {
 }
 
 /* Table body: */
-td {
+td{
   border: 2px solid black;
   max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
-  padding: 0.5%
+  padding: 0.5%;
+  min-height: 50px;
 }
 
 .td_NoBorder{
@@ -112,17 +142,16 @@ video{
 .pageSplitter_SideBar_Content{
   display: grid;
   grid-template-columns: 0.15fr 0.85fr;
-  grid-gap: 0px;
+  grid-gap: 0;
 }
 
 .sideBar{
-  width:100%
+  width:100%;
 }
 
-.hr_Thick{
-  height: 2px;
-  color: black;
-  background-color: black;
+.sideBarBackground{
+  width:100%;
+  background-color: lightblue;
 }
 
 .pageContent{
