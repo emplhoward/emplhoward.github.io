@@ -1,8 +1,15 @@
+/*
+Athabasca University ISML Research Cluster Site
+Author: Leo Howard, 2022
+*/
+
+/* Default class for the whole page. */
 html {
   background-color: white;
   color: black;
 }
 
+/* Default class for the html body. */
 body{
   height: 100%;
   width: 100%;
@@ -10,27 +17,21 @@ body{
   margin: 0;
 }
 
+/* Default class for header type 1. */
 h1{
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
+/* Default class for header type 2. */
 h2{
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-.header_label_background{
-  height: 100%;
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Style for all links.  */
+/* Default class for all links.  */
 a {
   font-family: "Serif", University, monospace;
   font-size: 100%;
@@ -41,7 +42,8 @@ a {
   height: 100%;
 }
 
-.a_Backbround{
+/* Style for the background of all links. */
+.a_Background{
   height: 100%;
   background-color: lightblue;
   display: flex;
@@ -49,6 +51,7 @@ a {
   justify-content: center;
 }
 
+/* Style for all break lines that separate the page contents.  */
 hr {
   display: block;
   margin-left: auto;
@@ -59,71 +62,13 @@ hr {
   background-color: gray;
 }
 
-.hr_Thick{
-  height: 2px;
-  color: black;
-  background-color: black;
-  display: block;
-  padding: 0;
-}
-
-table{
-  margin: auto;
-  margin: auto;
-  width: 100%;
-  table-layout: fixed;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-tr{
-  height: 50px;
-}
-
-/* Table header: */
-th{
-  border: 2px solid black;
-  padding: 0;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  font-weight: normal;
-}
-
-.th_NoBorder {
-  border: 0px;
-  padding: 0.5%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Table body: */
-td{
-  border: 2px solid black;
-  padding: 0.5%;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 50px;
-  max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
-}
-
-.td_NoBorder{
-  border: 0px;
-  max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
-  padding: 0.5%
-}
-
-.td_Links{
-  width: 100%;
-}
-
+/* Style for all embedded images. */
 img{
   width: 100%;
   display:block; /* Images are by default displayed inline - which causes the padding below the image. (because of line-height) */
 }
 
+/* Style for all embedded videos. */
 video{
  max-width:50%;
  height:100%;
@@ -132,6 +77,7 @@ video{
  background-color:#666;
 }
 
+/* Style for header portion of html body. */
 .header {
   background-color: white;
   color: black;
@@ -141,8 +87,8 @@ video{
   width: 100%;
 }
 
-/* Style for body elements, unless exceptional:  */
-.body {
+/* Style for mid portion of the html body. */
+.mid {
   background-color: white;
   font-family: "Serif", University, monospace;
   text-align: center;
@@ -150,6 +96,7 @@ video{
   margin-right: auto;
 }
 
+/* Style for footer portion of the html body. */
 .footer {
   background-color: lightblue;
   color: black;
@@ -157,22 +104,26 @@ video{
   padding-bottom: 2.5%
 }
 
+/* Style for the division that contains both the side bar and page content divs. */
 .pageSplitter_SideBar_Content{
   display: grid;
   grid-template-columns: 0.15fr 0.85fr;
   grid-gap: 0;
 }
 
+/* Style for the side bar. */
 .sideBar{
   background-color: lightblue;
   width:100%;
 }
 
+/* Style for the side bar background. */
 .sideBarBackground{
   width:100%;
   background-color: lightblue;
 }
 
+/* Style for the page content area. */
 .pageContent{
   border: 0px solid black;
   padding: 2.5%;
@@ -180,6 +131,7 @@ video{
   margin-bottom: auto;
 }
 
+/* Style for a paragraph that stands alone. */
 .paragraph_Standalone{
   text-align: left;
   margin-left: auto;
@@ -187,6 +139,7 @@ video{
   width: 75%;
 }
 
+/* Style for a paragraph nested within the page content division. */
 .paragraph_PageContent{
   text-align: left;
   margin-left: auto;
@@ -201,30 +154,70 @@ video{
   margin-right: auto;
 }
 
-/* Table div with 5 columns: */
+/* Style for all tables. */
+table{
+  margin: auto;
+  margin: auto;
+  width: 100%;
+  table-layout: fixed;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for all table rows. */
+tr{
+  height: 50px;
+}
+
+/* Style for all table headers. */
+th{
+  border: 2px solid black;
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  font-weight: normal;
+}
+
+/* Style for all table bodies. */
+td{
+  border: 2px solid black;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  max-width: 25%;  /* This needs to be set, because for some reasons text-align center doesn't work without width. */
+}
+
+/* Style for a table that needs to span 100% of its parent container. */
 .tableDiv_100{
   margin: auto;
   width: 100%;
 }
 
+/* Style for a table that needs to span 80% of its parent container. */
 .tableDiv_80{
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
 }
 
+/* Style for a table that needs to span 60% of its parent container. */
 .tableDiv_60{
   margin-left: auto;
   margin-right: auto;
   max-width: 60%;
 }
 
+/* Style for a table that needs to span 25% of its parent container. */
 .tableDiv_25{
   margin-left: auto;
   margin-right: auto;
   max-width: 25%;
 }
 
+/* Style for a table that needs to span 10% of its parent container. */
 .tableDiv_10{
   margin-left: auto;
   margin-right: auto;
