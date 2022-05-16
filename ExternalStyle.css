@@ -79,7 +79,7 @@ video{
 
 /* Style for header portion of html body. */
 .header {
-  background-color: white;
+  background-color: red;
   color: black;
   font-family: "Serif", University, monospace;
   text-align: center;
@@ -120,7 +120,7 @@ video{
 /* Style for the side bar background. */
 .sideBarBackground{
   width:100%;
-  background-color: red;
+  background-color: lightblue;
 }
 
 /* Style for the page content area. */
