@@ -5,7 +5,7 @@ Author: Leo Howard, 2022
 
 /* Default class for the whole page. */
 html {
-  background-color: red;
+  background-color: white;
   color: black;
 }
 
@@ -120,7 +120,7 @@ video{
 /* Style for the side bar background. */
 .sideBarBackground{
   width:100%;
-  background-color: lightblue;
+  background-color: red;
 }
 
 /* Style for the page content area. */
